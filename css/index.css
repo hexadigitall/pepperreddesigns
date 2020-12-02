@@ -1,0 +1,410 @@
+/* From here -For index page- */
+@import url(../assets/fonts/Nunito-FontFace.css);
+@import url(../assets/icons/Material-Icon-FontFace.css);
+
+/* css reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 1rem;
+  font-family: "Nunito", sans-serif;
+}
+
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container-index{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+ }
+
+ 
+
+
+.nav-bar{
+    background-color: rgb(31, 29, 29);
+    position: fixed;
+    overflow: auto;
+    width: 100%;
+    padding-bottom: 10px;
+    vertical-align: middle;
+}
+
+.navitem {
+    padding: 0 20px;
+}
+
+.navitem::after {
+    width: 0;
+    left: 50%;
+    height: 1px;
+    content: "";
+    display: block;
+    position: relative;
+    background: red;
+    transition: all 0.9s ease-in-out;
+}
+
+.navitem:hover::after {
+    left: 0;
+    width: 100%;
+}
+
+.all-top-nav{
+    display: flex;
+    height: 45px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.shift{
+    align-items: center;
+}
+
+.logo-area{
+    background-color: white;
+    width: 6%;
+    margin-left: 7%;
+    height: 55px;
+    
+}
+
+.img-logo{
+    width: auto;
+    height: 45px;
+    margin-left: 30%;
+    margin-top: 10%;
+    
+}
+
+
+ul li{
+    margin: auto;
+    list-style-type: none;
+    text-transform: uppercase;
+
+}
+
+.regular-nav{
+    display: flex;
+    list-style-type: none;
+    width: 45%;
+    justify-content: space-around;
+}
+
+.push-right{
+    margin-left: auto;
+    list-style-type: none;
+    min-width: 25%;
+    display: flex;
+    padding: 0 50px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu.banner{
+    width: 100%;
+    padding-bottom: 10px;
+    height: 40%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  
+    
+}
+.top-banner{
+    height: 90%;
+    width: 100%;
+   
+}
+
+.mast-head{
+    background-color: white;
+    min-width: 100%;
+    margin-bottom: 50px;
+    height: 100%;
+    display: flex;
+    padding-top: 5%;   
+}
+
+.logo-area-mast{
+    max-width: 10%;
+    margin-left: 20%;
+}
+
+.search{
+    height: 58px;
+    margin: 20px 0;
+    overflow: hidden;
+    width: 214px;
+}
+
+.search p {
+    margin: 0;
+    padding: 0;
+}
+
+.search input{
+    float: left;
+    font-size: .9em;
+    margin: 16px 0 0 0;
+}
+
+.search input.textinput {
+    color: #aaa;
+    margin-left: 8px;
+    margin-right: 4px;
+    height: 30px;
+}
+
+.mast-logo{
+    width: auto;
+    height: 80px;
+   
+    
+}
+
+.logo-name{
+    width: 55%;
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
+    text-transform: uppercase;
+    letter-spacing: 4pt;
+}
+
+.mast-nav{
+    display: flex;
+    height: 45px;
+    padding: 0 10px;
+}
+.mast-regular{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.mast-nav a{
+    color: black;
+}
+
+
+.slide-background{
+    position: relative;
+    background-color: red;
+    z-index: -1;
+    background: url(/imgs/1.png);
+    background-position-y: bottom;
+    height: 100vh;
+    padding: 130px;
+}
+
+.slide-container{ 
+    overflow: hidden;
+    height: 600px;
+    position: relative;
+    z-index: -2;
+}
+
+.slide-container .image-container div{
+    width: 20%;
+    float: left;
+}
+
+.slide-container .image-container img{
+    width: 100%;
+    float: left;
+    margin-right: 35%;
+    border-radius: 20px;
+    border: 5px solid transparent;
+
+}
+
+.slide-container .image-container{
+    position: relative;
+    width: 500%;
+    z-index: -3;
+    animation: squid 20s infinite; 
+}
+
+.slide-container .image-container .slide p{
+    z-index: 10000;
+    font-size: 35px;
+    text-align: center;
+    position: absolute;
+    width: 20%;
+    top: 460px;
+    margin-top: 10px;
+    color: black;
+    font-variant: small-caps;
+    border-bottom-right-radius: 20px;
+    border-bottom: solid 16px red;
+}
+
+
+
+.image-container .slider-image {
+    float: left;
+    width: 600px;
+    height: 480px;
+}
+
+
+@keyframes squid {
+    0%
+    {
+        left: 0%;
+    }
+    10%{
+        left: 0%;
+    }
+    12%{
+        left: -100%;
+    }
+    22%{
+        left: -100%;
+    }
+
+    24%{
+        left: -200%;
+    }
+
+    34%{
+        left: -200%;
+    }
+    36%{
+        left: -300%;
+    }
+    46%{
+        left: -300%;
+    }
+    48%{
+        left: -400%;
+    }
+
+    58%{
+        left: -400%;
+    }
+
+    60%{
+        left: -300%;
+    }
+
+    70%{
+        left: -300%;
+    }
+
+    72%{
+        left: -200%;
+    }
+
+    82%{
+        left: -200%;
+    }
+
+    84%{
+        left: -100%;
+    }
+
+    94%{
+        left: -100%;
+    }
+
+    96%{
+        left: 0%;
+    }
+    
+}
+
+
+
+
+
+
+footer{
+    display: grid;
+    grid-auto-flow: row; 
+    margin-top: 40px;
+}
+
+footer a{
+    color: black;
+}
+
+.footer-menu{
+    display: flex;
+    background-color: red;
+    font-size: smaller;    
+    text-align: center;
+    padding: 0 30%;
+    padding-bottom: 20px;
+    height: 100px;
+}
+
+.footer-cta-menu{
+    display: flex;
+    color: black;
+    background-color: red;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+
+.footer-links{
+    flex-direction: row;
+    padding:0 10%;
+    text-align: center;   
+}
+
+.social-links-list{
+    padding:0 30px 10px 0;
+}
+.social-links-item {
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+.component-menu{
+    display: flex;
+    padding: 10px 0;
+    align-content: center;
+    font-size: small;
+}
+
+#footer-copyright{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 0.25px;
+    font-size: smaller;
+
+
+}
+/* until here -For Index page- */
