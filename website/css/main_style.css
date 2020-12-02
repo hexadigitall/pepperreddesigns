@@ -1,0 +1,458 @@
+/*
+Theme Name:     pprd
+Version:        1.0
+Description:    Custom CSS
+*/
+/* 
+	All custom ids and classes used for the theme, starts with "pprd".
+	For documentation page, it uses "pprdDoc".
+*/
+/* TABLE OF CONTENTS */
+/*
+	1. body
+		1.1 #pprd-body
+	2. headlines
+		h1, h2, h3
+	3. headings
+		3.1 .pprd-headings
+	4. about
+		4.1 .pprd-about
+	5. services
+		5.1 .pprd-services-1
+		5.2 .pprd-services-2
+	6. count
+		6.1 .pprd-count
+	7. reviews
+		7.1 .pprd-reviews-1
+		7.2 .pprd-reviews-2
+		7.3 .pprd-reviews-3
+		7.4 .pprd-reviews-img
+	8. team
+		8.1 .pprd-team-1
+		8.2 .pprd-team-2
+	9. blog
+		9.1 .pprd-blog-1
+		9.2 .pprd-blog-2
+	10. video
+		10.1 .pprd-video
+	11. contact
+		11.1 .pprd-contact
+	12. newsletter
+		12.1 .pprd-newsletter
+	13. parallax
+		13.1 .pprd-parallax-1
+		13.2 .pprd-parallax-2
+		13.3 .pprd-parallax-3
+		13.4 .pprd-parallax-4
+	14. navigation
+		14.1 #pprd-navbar
+	15. link show
+		15.1 .pprd-link-show
+	16. links
+		16.1 .pprd-link-1
+		16.2 .pprd-link-2
+	17. tab
+		17.1 .pprd-tab
+	18. button
+		18.1 .pprd-button
+	19. card-columns
+		19.1 .pprd-card-columns
+	20. images zoom in
+		20.1 .pprd-zoom
+	21. scroll top
+		21.1 .pprd-scrolltop
+		21.2 .pprd-scroll
+		21.3 .pprd-scroll .fas
+	22. input
+		22.1 .pprd-field input
+	23. textarea
+		23.1 .pprd-field textarea
+	24. height of all elements
+		24.1 *
+	25. footer
+		25.1 #pprd-footer
+	26. documentation
+		26.1 .pprdDoc-scroll
+		26.2 .pprdDoc-pre
+		26.3 #pprdDoc-navbar
+		26.4 #pprdDoc-nav-pills
+		26.5 .pprdDoc-nav-link
+*/
+/* END OF TABLE OF CONTENTS */
+/* CUSTOM CSS */
+/* BODY */
+#pprd-body{
+	background-color: transparent;
+	background: url(/website/images/bgg.svg);
+	color: #1d3557;
+	font-size: 18px;
+	height: 100vh;
+	font-family: 'Varela Round', sans-serif;
+}
+/* END OF BODY */
+/* HEADLINES */
+h1,h2,h3{
+	font-family: 'Black Han Sans', sans-serif;
+}
+/* END OF HEADLINES */
+/* HEADINGS */
+.pprd-headings{
+	background-color: #F8F3EFff;
+	color: rgb(238, 16, 53);
+    border-right: 40px solid black;
+	word-wrap: break-word;
+}
+/* END OF HEADINGS */
+/* ABOUT */
+.pprd-about{
+	background-color: transparent;
+	color: #1d3557;
+	border-left: 40px solid black;
+}
+/* END OF ABOUT */
+/* SERVICES */
+.pprd-services-1{
+	background-color: rgb(252, 112, 112);
+	color: black;
+	border-right: 40px solid black;
+}
+.pprd-services-2{
+	background-color: rgb(238, 16, 53);
+	color: #000000;
+	border: 0;
+	border-radius: 0;
+}
+
+/* END OF SERVICES */
+/* COUNT */
+.pprd-count{
+	background-color: #343330;
+	color: #F3F3F3;
+    border-left: 40px solid #4D5359;
+	word-wrap: break-word;
+}
+/* END OF COUNT */
+/* REVIEWS */
+.pprd-reviews-1{
+	background-color: #343330;
+	color: #F3F3F3;
+    border-left: 40px solid black;
+}
+.pprd-reviews-2{
+	color: #F3F3F3;
+	padding: 0;
+	margin: 0;
+}
+.pprd-reviews-3{
+	color: #CFDBD5;
+}
+#reviews .pprd-reviews-img{
+    width: 120px;
+    height: 80px;
+}
+/* END OF REVIEWS */
+/* TEAM */
+.pprd-team-1{
+	background-color: #1F5673;
+	color: #F3F3F3;
+	border-right: 40px solid black;
+}
+#team .pprd-team-2{
+	background-color: #FFFBFC;
+	color: #000000;
+	border: 0;
+	border-radius: 0;
+}
+/* END OF TEAM */
+/* BLOG */
+.pprd-blog-1{
+	background-color: #041F1E;
+	color: #F3F3F3;
+	border-left: 40px solid black;
+}
+.pprd-blog-2{
+	background-color: #041F1E;
+	color: #F3F3F3;
+	border: 0;
+	border-radius: 0;
+}
+/* END OF BLOG */
+/* VIDEO */
+.pprd-video{
+    height: auto;
+}
+/* END OF VIDEO */
+/* CONTACT */
+.pprd-contact{
+	background-color: #5E503F;
+	color: #F3F3F3;
+	border-left: 40px solid black;
+}
+/* END OF CONTACT */
+/* NEWSLETTER */
+.pprd-newsletter{
+	background-color: #343330;
+	color: #F3F3F3;
+	border-right: 40px solid black;
+}
+/* END OF NEWSLETTER */
+/* PARALLAX */
+.pprd-parallax-1{
+	height: 100%;
+    background-image: url("/website/images/6.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.pprd-parallax-2{
+	height: 100%;
+    background-image: url("/website/images/bg2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.pprd-parallax-3{
+	height: 100%;
+    background-image: url("/website/images/bg3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.pprd-parallax-4{
+	height: 100%;
+    background-image: url("/website/images/12.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+/* END OF PARALLAX */
+/* NAVIGATION */
+#pprd-navbar{
+	background-color: white;
+	color: black;
+}
+
+#pprd-navbar.navbar .navbar-nav .nav-item a{
+	color: black;
+}
+
+.navbar-brand.logo-image img {
+    width: 1.4375rem;
+	height: 2rem;
+}
+
+#pprd-navbar.solid{
+	background-color:rgb(238, 16, 53);
+	color: #F3F3F3;
+	transition-delay: 0.2s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+}
+
+.pprd-nav-link.light{
+	color: white !important;
+}
+
+#pprd-navbar .pprd-nav-link{
+	color: #F3F3F3;
+}
+#pprd-navbar .pprd-nav-link:hover{
+	color: #DBDBDB;
+}
+/* END OF NAVIGATION */
+/* LINK SHOW */
+.pprd-link-show{
+    padding-top: 60px;
+    margin-top: -60px;
+}
+/* END OF LINK SHOW */
+/* LINKS */
+.pprd-link-1{
+	color: #343330;
+}
+.pprd-link-1:hover{
+	color: #1F5673;
+}
+.pprd-link-2{
+	color: #F3F3F3;
+}
+.pprd-link-2:hover{
+	color: #E8F7EE;
+}
+.pprd-link-3{
+	color: #F3F3F3;
+}
+.pprd-link-3:hover{
+	color: #E3EDE9;
+	text-decoration: none;
+}
+/* END OF LINKS */
+/* TAB */
+.pprd-tab .nav-link, .pprd-tab .show>.nav-link{
+	color: black;
+	border-radius: 0;
+}
+.pprd-tab .nav-link:hover, .pprd-tab .show>.nav-link{
+	color: #DBDBDB;
+	border-radius: 0;
+}
+.pprd-tab .nav-link.active, .pprd-tab .show>.nav-link{
+	background-color: rgb(247, 118, 139);
+	color: #F3F3F3;
+	border-radius: 0;
+}
+/* END OF TAB */
+/* BUTTON */
+.pprd-button{
+	background-color: rgb(190, 9, 9);
+	color: #F3F3F3;
+	border-radius: 0;
+}
+.pprd-button:hover{
+	background-color: #1F0318;
+	color: #F3F3F3;
+}
+/* END OF BUTTON */
+/* CARD COLUMNS */
+@media (min-width: 576px){
+    .pprd-card-columns{
+        column-count: 1;
+    }
+	.card-count>.pprd-card-columns{
+        column-count: 1;
+    }
+}
+@media (min-width: 768px){
+    .pprd-card-columns{
+        column-count: 1;
+    }
+	.card-count>.pprd-card-columns{
+        column-count: 1;
+    }
+}
+@media (min-width: 992px){
+    .pprd-card-columns{
+        column-count: 3;
+    }
+	.card-count>.pprd-card-columns{
+        column-count: 4;
+    }
+}
+@media (min-width: 1200px){
+    .pprd-card-columns{
+        column-count: 3;
+    }
+	.card-count>.pprd-card-columns{
+        column-count: 4;
+    }
+}
+/* END OF CARD COLUMNS */
+/* IMAGES ZOOM IN */
+.pprd-zoom img {
+	width: 100%;
+	height: auto;
+	transition: all 0.5s ease-in-out;
+}
+.pprd-zoom:hover img {
+    transform: scale(1.1);
+}
+/* END OF IMAGES ZOOM IN */
+/* SCROLL TOP */
+.pprd-scrolltop{
+	display: none;
+	width: 100%;
+	margin: 0 auto;
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+}
+.pprd-scroll{
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	background-color: rgb(238, 16, 53);
+	padding: 20px;
+	border-radius: 35px;
+	text-align: center;
+	margin: 0 0 0 0;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.pprd-scroll:hover{
+	transition: 0.5s;	
+}
+.pprd-scroll .fas{
+	font-size: 30px;
+	color: #000000;
+	margin-top: -5px;
+	margin-left: 1px;
+	transition: 0.5s;
+}
+/* END OF SCROLL TOP */
+/* INPUT */
+.pprd-field input{
+	border: 0;
+	border-radius: 0;
+}
+/* END OF INPUT */
+/* TEXTAREA */
+.pprd-field textarea{
+	border: 0;
+	border-radius: 0;
+}
+/* END OF TEXTAREA */
+/* HEIGHT OF ALL ELEMENTS */
+*{
+    min-height: 0.01px;
+}
+/* END OF HEIGHT OF ALL ELEMENTS */
+/* FOOTER */
+#pprd-footer{
+	background-color: rgb(238, 16, 53);
+	color: #F3F3F3;
+}
+/* END OF FOOTER */
+/* DOCUMENTATION */
+.pprdDoc-scroll{
+	position: relative;
+	height: 100vh;
+	overflow-y: scroll;
+}
+.pprdDoc-pre{
+	color: #DBDBDB;
+}
+#pprdDoc-navbar{
+	margin: 0;
+	padding: 0;
+}
+#pprdDoc-nav-pills{
+	background-color: #684551;
+	color: #F3F3F3;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	transition-delay: 0.2s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+}
+#pprdDoc-nav-pills .pprdDoc-nav-link{
+	background-color: #684551;
+	color: #F3F3F3;
+	border: 0;
+	border-radius: 0;
+}
+#pprdDoc-nav-pills .pprdDoc-nav-link:hover{
+	background-color: #1F0318;
+	color: #F3F3F3;
+}
+#pprdDoc-nav-pills .pprdDoc-nav-link.active,#pprdDoc-nav-pills .show>.pprdDoc-nav-link{
+	background-color: #041F1E;
+	color: #F3F3F3;
+	border-radius: 0;
+}
+/* END OF DOCUMENTATION */
+/* END OF CUSTOM CSS */
