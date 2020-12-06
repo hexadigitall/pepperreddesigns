@@ -354,7 +354,7 @@ h1,h2,h3{
 /* IMAGES ZOOM IN */
 .pprd-zoom img {
 	width: 100%;
-	height: auto;
+	height: 426px;
 	transition: all 0.5s ease-in-out;
 }
 .pprd-zoom:hover img {
