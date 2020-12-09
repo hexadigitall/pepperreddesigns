@@ -153,7 +153,7 @@ h1,h2,h3{
 /* END OF REVIEWS */
 /* TEAM */
 .pprd-team-1{
-	background-color: #1F5673;
+	background-color: rgba(10, 2, 2, 0.781);
 	color: #F3F3F3;
 	border-right: 40px solid black;
 }
@@ -192,7 +192,7 @@ h1,h2,h3{
 /* END OF VIDEO */
 /* CONTACT */
 .pprd-contact{
-	background-color: #5E503F;
+	background-color: #5e433f;
 	color: #F3F3F3;
 	border-left: 40px solid black;
 }
@@ -377,6 +377,7 @@ h1,h2,h3{
 	position: fixed;
 	bottom: 20px;
 	right: 10px;
+	z-index: 300000;
 }
 .pprd-scroll{
 	position: absolute;
