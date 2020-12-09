@@ -105,19 +105,19 @@ h1,h2,h3{
 /* END OF HEADINGS */
 /* ABOUT */
 .pprd-about{
-	background-color: transparent;
+	background-color: rgba(245, 197, 197, 0.2);
 	color: #1d3557;
 	border-left: 40px solid black;
 }
 /* END OF ABOUT */
 /* SERVICES */
 .pprd-services-1{
-	background-color: rgb(252, 112, 112);
+	background-color:rgba(252, 112, 112, 0.3);
 	color: black;
 	border-right: 40px solid black;
 }
 .pprd-services-2{
-	background-color: rgb(238, 16, 53);
+	background-color: rgba(252, 112, 112, .2);
 	color: #000000;
 	border: 0;
 	border-radius: 0;
@@ -180,7 +180,14 @@ h1,h2,h3{
 /* END OF BLOG */
 /* VIDEO */
 .pprd-video{
-    height: auto;
+	width: 80% !important;
+	margin: 0 auto;
+	
+}
+
+.embed-responsive-item{
+	object-fit: cover;
+	height:100% !important;
 }
 /* END OF VIDEO */
 /* CONTACT */
