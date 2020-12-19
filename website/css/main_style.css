@@ -39,11 +39,11 @@ Description:    Custom CSS
 		11.1 .pprd-contact
 	12. newsletter
 		12.1 .pprd-newsletter
-	13. parallax
-		13.1 .pprd-parallax-1
-		13.2 .pprd-parallax-2
-		13.3 .pprd-parallax-3
-		13.4 .pprd-parallax-4
+	13. effx
+		13.1 .pprd-effx-1
+		13.2 .pprd-effx-2
+		13.3 .pprd-effx-3
+		13.4 .pprd-effx-4
 	14. navigation
 		14.1 #pprd-navbar
 	15. link show
@@ -180,13 +180,16 @@ h1,h2,h3{
 /* END OF BLOG */
 /* VIDEO */
 .pprd-video{
-	width: 95% !important;
+	width: 80% !important;
 	margin: 0 auto;
+	background-image: url(/website/images/pepperred\ transparent.png);
+	background-size: contain;
+	background-color:rgb(238, 16, 53);
 	
 }
 
 .embed-responsive-item{
-	object-fit: cover;
+	object-fit: contain;
 	height:100% !important;
 }
 /* END OF VIDEO */
@@ -204,8 +207,8 @@ h1,h2,h3{
 	border-right: 40px solid black;
 }
 /* END OF NEWSLETTER */
-/* PARALLAX */
-.pprd-parallax-1{
+/* effx */
+.pprd-effx-1{
 	height: 100%;
     background-image: url("/website/images/6.jpg");
     background-attachment: fixed;
@@ -213,7 +216,7 @@ h1,h2,h3{
     background-repeat: no-repeat;
 	background-size: cover;
 }
-.pprd-parallax-2{
+.pprd-effx-2{
 	height: 100%;
     background-image: url("/website/images/bg2.jpg");
     background-attachment: fixed;
@@ -221,7 +224,7 @@ h1,h2,h3{
     background-repeat: no-repeat;
 	background-size: cover;
 }
-.pprd-parallax-3{
+.pprd-effx-3{
 	height: 100%;
     background-image: url("/website/images/bg3.jpg");
     background-attachment: fixed;
@@ -229,7 +232,7 @@ h1,h2,h3{
     background-repeat: no-repeat;
 	background-size: cover;
 }
-.pprd-parallax-4{
+.pprd-effx-4{
 	height: 100%;
     background-image: url("/website/images/12.jpg");
     background-attachment: fixed;
@@ -237,7 +240,7 @@ h1,h2,h3{
     background-repeat: no-repeat;
 	background-size: cover;
 }
-/* END OF PARALLAX */
+/* END OF effx */
 /* NAVIGATION */
 #pprd-navbar{
 	background-color: white;
