@@ -180,8 +180,8 @@ h1,h2,h3{
 /* END OF BLOG */
 /* VIDEO */
 .pprd-video{
-	width: 80% !important;
-	margin: 0 auto;
+	width: 95% !important;
+	margin: 0 30px;
 	background-image: url(/website/images/pepperred\ transparent.png);
 	background-size: contain;
 	background-color:rgb(238, 16, 53);
